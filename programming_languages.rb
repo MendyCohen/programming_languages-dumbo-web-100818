@@ -1,3 +1,4 @@
+require 'pry'
 def reformat_languages(languages)
   new_hash = {}
   languages.collect do |language_hash, inside_language_hash|
